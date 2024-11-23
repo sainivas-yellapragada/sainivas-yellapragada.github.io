@@ -142,7 +142,9 @@
     height: auto;
     width: 53%;
     border-radius: 50%;
+    
   }
+  
   .about-text h2 {
     font-size: 60px;
   }
@@ -317,11 +319,11 @@
   }
   
   .progress-line.javascript span {
-    width: 85%;
+    width: 15%;
   }
   
   .progress-line.python span {
-    width: 50%;
+    width: 80%;
   }
   
   .progress-line.react span {
@@ -525,6 +527,7 @@
     position: absolute;
     border-radius: 8px;
     left: 0;
+
     bottom: 0;
     overflow: hidden;
     display: flex;
