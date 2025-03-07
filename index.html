@@ -15,6 +15,8 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   </head>
   <body>
     <header class="header">
@@ -22,7 +24,7 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/png/john-doe.png"
+              src="./assets/png/photo.png"
               alt="Sai Nivas Yellapragada Logo Image"
               class="header__logo-img"
             />
@@ -84,7 +86,8 @@
         <h1 class="heading-primary">Hey, My name is Sai Nivas Yellapragada</h1>
         <div class="home-hero__info">
           <p class="text-primary">
-            I'm a full-stack developer specializing in Django and modern web technologies. Passionate about building scalable and efficient applications          </p>
+            I'm a full-stack developer specializing in Django and modern web technologies. Passionate about building scalable and efficient applications
+          </p>
         </div>
         <div class="home-hero__cta">
           <a href="./#projects" class="btn btn--bg">Projects</a>
@@ -156,9 +159,7 @@
                 I've worked on projects involving <strong>authentication systems</strong>, <strong>project management tools</strong>, and <strong>real-time collaborative features</strong>. Feel free to <strong>contact</strong> me to discuss potential collaborations or projects!
               </p>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
-            >
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
           </div>
           <div class="about__content-skills">
             <h3 class="about__content-title">My Skills</h3>
@@ -185,7 +186,6 @@
             Here are some of the projects I've worked on as a Django full-stack developer, showcasing my skills in web development, computer vision, and real-time collaboration.
           </span>
         </h2>
-
         <div class="projects__content">
           <div class="projects__row">
             <div class="projects__row-img-cont">
@@ -205,8 +205,7 @@
                 href="./project-1.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
-              >
+              >Case Study</a>
             </div>
           </div>
           <div class="projects__row">
@@ -227,8 +226,7 @@
                 href="./project-2.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
-              >
+              >Case Study</a>
             </div>
           </div>
           <div class="projects__row">
@@ -249,8 +247,7 @@
                 href="./project-3.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
-              >
+              >Case Study</a>
             </div>
           </div>
         </div>
@@ -265,7 +262,7 @@
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action="#" class="contact__form">
+          <form id="contact-form" class="contact__form">
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Name</label>
               <input
@@ -282,7 +279,7 @@
               <input
                 required
                 placeholder="Enter Your Email"
-                type="text"
+                type="email"
                 class="contact__form-input"
                 name="email"
                 id="email"
@@ -315,28 +312,28 @@
               <span>Social</span>
             </h2>
             <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sai-nivas-yellapragada">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/linkedin-ico.png"
                   alt="LinkedIn icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://github.com/sainivas-yellapragada">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/github-ico.png"
                   alt="GitHub icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://x.com/sainivas_2003">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/twitter-ico.png"
                   alt="Twitter icon"
                 />
-              </a>   
-              <a target="_blank" rel="noreferrer" href="#">
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sainivas_yellapragada/profilecard/?igsh=aWphdW54ZGJtNDl3">
                 <img
                   class="main-footer__icon main-footer__icon--mr-none"
                   src="./assets/png/insta-ico.png"
@@ -354,9 +351,7 @@
         </div>
         <div class="main-footer__lower">
           © Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="sainivasyellapragada.site"
-            >Sai Nivas Yellapragada</a
-          >
+          <a rel="noreferrer" target="_blank" href="sainivasyellapragada.site">Sai Nivas Yellapragada</a>
         </div>
       </div>
     </footer>
