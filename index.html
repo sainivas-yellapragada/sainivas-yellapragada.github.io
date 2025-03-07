@@ -1,293 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio - Sai Nivas Yellapragada</title>
+    <meta name="description" content="Portfolio of Sai Nivas Yellapragada, Django Full Stack Developer" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="stylesheet.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <link rel="icon" type="image/x-icon" href="images\icon.png">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
 
-<body>
-  <header class="header">
-    <a href="#" class="logo">Portfolio</a>
-    <nav class="navbar">
-      <a href="#" class="active">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#">Portfolio</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
-
-  <!-- ********************* Part 1 ********************* -->
-  <section class="home">
-    <div class="home-content">
-      <h3>Hello, It's Me</h3>
-      <h1>Sai Nivas Yellapragada</h1>
-      <h3>And I'm a <span class="text"></span></h3>
-      <p>I'm a Python Full-Stack Developer with half an year of experience.
-        <br> Specalizing in Web applications with Django.i've solver over 50+<b>LeetCode</b> problems.<br> and much more.....
-      </p>
-      <div class="home-Sci">
-        <a href="https://www.instagram.com/sainivas_yellapragada/profilecard/?igsh=aWphdW54ZGJtNDl3" style="--i:7"><i class='bx bxl-instagram-alt'></i></a>
-        <a href="https://wa.me/919866459588" style="--i:8"><i class='bx bxl-whatsapp'></i></a>
-        <a href="https://www.linkedin.com/in/sai-nivas-yellapragada" style="--i:9"><i class='bx bxl-linkedin-square'></i></a>
-        <a href="https://github.com/sainivas-yellapragada" style="--i:10"><i class='bx bxl-github'></i></a>
-      </div>
-      <a href="#" class="btn-box">Achievements</a>
-    </div>
-    <div class="about-img1">
-      <img class="img1" src="" alt="">
-    </div>
-  </section>
-
-  <!-- ********************* Part 2 ********************* -->
-  <section class="about" id="about">
-    <div class="about-img">
-      <img src="images\profile.jpeg" alt="About Image">
-    </div>
-    <div class="about-text">
-      <h2>About <span>Me</span></h2>
-      <h4>Python Full-Stack Developer!</h4>
-      <p >I am a passionate Python full-stack developer specializing in Django.
-        With expertise in building robust, scalable web applications,
-        I focus on creating user-friendly interfaces and efficient back-end systems.
-        My projects include <b>VisiOCR</b>, an OCR-based visiting pass generator with QR code integration.
-        a <b>Voice-Based Email System for the Blind</b>, empowering visually impaired individuals to send emails using voice commands.
-        My work reflects a commitment to innovation and delivering impactful solutions.
-      </p>
-    <!--<a href="#" class="btn-box">More About Me</a> -->
-    </div>
-  </section>
-
-  <!-- ********************* Part 3 ********************* -->
-  <section class="services" id="services">
-    <div class="container">
-      <h1 class="sub-title">My <span>Services</span></h1>
-      <div class="services-list">
-        <div>
-          <i class='bx bx-code-alt' style='color:#ff8c00'></i>
-          <h2>Full-Stack Web Development</h2>
-          <p>I specialize in developing dynamic, responsive web applications using Django, ensuring seamless user experiences. From designing intuitive interfaces to building robust back-end systems, I deliver end-to-end solutions tailored to your needs.</p>
-          <a href="#" class="read">Learn More</a>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/john-doe.png"
+              alt="Sai Nivas Yellapragada Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Sai Nivas Yellapragada</span>
         </div>
-        <div>
-          <i class='bx bx-customize' style='color:#ff8c00'></i>
-          <h2>Custom Software Solutions</h2>
-          <p>I create bespoke software solutions to address unique business challenges, incorporating features like database management, API integration, and process automation. My solutions are designed for efficiency, scalability, and long-term growth.</p>
-          <a href="#" class="read">Learn More</a>
-        </div>
-        <div>
-          <i class='bx bx-briefcase' style='color:#ff8c00'></i>
-          <h2>Project Consultation and Optimization</h2>
-          <p>I offer expert consultation to streamline your web development projects, focusing on optimizing code, improving performance, and building scalable, maintainable architectures. Whether starting from scratch or enhancing an existing system, I ensure impactful results.</p>
-          <a href="#" class="read">Learn More</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ********************* Part 4 ********************* -->
-  <section class="skills" id="skills">
-    <div class="container1">
-      <h1 class="heading1">Technical Skills</h1>
-      <div class="Technical-bars">
-        <div class="bar">
-          <i class='bx bxl-html5' style='color:#ff8c00'></i>
-          <div class="info">
-            <span>HTML</span>
-          </div>
-          <div class="progress-line html">
-            <span></span>
-          </div>
-        </div>
-        <div class="bar">
-          <i class='bx bxl-css3' style='color:#fff700'></i>
-          <div class="info">
-            <span>CSS</span>
-          </div>
-          <div class="progress-line css">
-            <span></span>
-          </div>
-        </div>
-        <div class="bar">
-          <i class='bx bxl-javascript' style='color:#fff700'></i>
-          <div class="info">
-            <span>JavaScript</span>
-          </div>
-          <div class="progress-line javascript">
-            <span></span>
-          </div>
-        </div>
-        <div class="bar">
-          <i class='bx bxl-python' style='color:#fff700'></i>
-          <div class="info">
-            <span>Python</span>
-          </div>
-          <div class="progress-line python">
-            <span></span>
-          </div>
-        </div>
-        <div class="bar">
-          <i class='bx bxl-react' style='color:#fff700'></i>
-          <div class="info">
-            <span>React</span>
-          </div>
-          <div class="progress-line react">
-            <span></span>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- ********************* Part 5 ********************* -->
-    <div class="container">
-      <h1 class="heading1">Professional Skills</h1>
-      <div class="radial-bars">
-        <div class="radial-bar">
-          <svg x="0px" y="0px" viewBox="0 0 200 200">
-            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-          </svg>
-          <div class="percentage">90%</div>
-          <div class="text">Creativity</div>
-        </div>
-
-        <div class="radial-bar">
-          <svg x="0px" y="0px" viewBox="0 0 200 200">
-            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-            <circle class="path path-2" cx="100" cy="100" r="80"></circle>
-          </svg>
-          <div class="percentage">75% </div>
-          <div class="text">Communication</div>
-        </div>
-
-        <div class="radial-bar">
-          <svg x="0px" y="0px" viewBox="0 0 200 200">
-            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
-          </svg>
-          <div class="percentage">75%</div>
-          <div class="text">Problem Solving</div>
-        </div>
-
-        <div class="radial-bar">
-          <svg x="0px" y="0px" viewBox="0 0 200 200">
-            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
-          </svg>
-          <div class="percentage">85%</div>
-          <div class="text">Teamwork</div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- ********************* Part 6 ********************* -->
-  <!-- Uncomment and adjust when ready -->
-  <!-- 
-    <section>
-        <div id="portfolio">
-            <div class="main-text" id="project">
-                <h2>Latest <span>Projects</span></h2>
-                <div class="portfolio-content">
-                    <div class="row">
-                        <img src="5757453.jpg" alt="Project Image">
-                        <div class="layer">
-                            <h5>Web Development</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta doloribus velit ipsa
-                                incidunt dolorum rerum tempora dolore, assumenda iste porro accusamus asperiores
-                                voluptates suscipit sit blanditiis, fugit modi consectetur non?</p>
-                            <a href="#"> <i class='bx bx-link-external' style="color:aliceblue;"></i></a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <img src="53.jpg" alt="Project Image">
-                        <div class="layer">
-                            <h5>Web Development</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta doloribus velit ipsa
-                                incidunt dolorum rerum tempora dolore, assumenda iste porro accusamus asperiores
-                                voluptates suscipit sit blanditiis, fugit modi consectetur non?</p>
-                            <a href="#"> <i class='bx bx-link-external' style="color:aliceblue;"></i></a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <img src="575.jpg" alt="Project Image">
-                        <div class="layer">
-                            <h5>Web Development</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta doloribus velit ipsa
-                                incidunt dolorum rerum tempora dolore, assumenda iste porro accusamus asperiores
-                                voluptates suscipit sit blanditiis, fugit modi consectetur non?</p>
-                            <a href="#"> <i class='bx bx-link-external' style="color:aliceblue;"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, My name is Sai Nivas Yellapragada</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            I'm a full-stack developer specializing in Django and modern web technologies. Passionate about building scalable and efficient applications          </p>
         </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/sai-nivas-yellapragada" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="LinkedIn icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/sainivas-yellapragada" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="GitHub icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://x.com/sainivas_2003" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/twitter-ico.png"
+              alt="Twitter icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://www.instagram.com/sainivas_yellapragada/profilecard/?igsh=aWphdW54ZGJtNDl3"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/png/insta-ico.png"
+              alt="Instagram icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
     </section>
-    -->
-
-  <!-- *************************** last potion contact -->
-
-  <br /></br>
-  <!-- Footer section design -->
-  <footer class="footer">
-    <div class="footer-waves">
-      <div class="wave" id="wave1"></div>
-      <div class="wave" id="wave2"></div>
-      <div class="wave" id="wave3"></div>
-      <div class="wave" id="wave4"></div>
-    </div>
-
-    <div class="footer-content">
-      <div class="footer-section">
-        <h3>Let's Connect</h3>
-        <div class="social-icons">
-          <a href="https://www.instagram.com/sainivas_yellapragada/profilecard/?igsh=aWphdW54ZGJtNDl3" class="social-icon">
-            <i class='bx bxl-instagram-alt' style='color:#E4405F'></i>
-          </a>
-          <a href="https://wa.me/919866459588" class="social-icon">
-            <i class='bx bxl-whatsapp' style='color:#25D366'></i>
-          </a>
-          <a href="https://www.linkedin.com/in/sai-nivas-yellapragada" class="social-icon">
-            <i class='bx bxl-linkedin-square' style='color:#0A66C2'></i>
-          </a>
-          <a href="https://github.com/sainivas-yellapragada" class="social-icon">
-            <i class='bx bxl-github' style='color:#fff'></i>
-          </a>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            I am a full-stack developer with expertise in Python (Django), front-end technologies, and cloud hosting. I have worked on authentication systems, project management tools, and real-time collaborative features.
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hey! It's
+                <strong>Sai Nivas Yellapragada</strong>
+                and I'm a <strong>Django Full Stack Developer</strong>. I specialize in building robust web applications using Python and Django, complemented by front-end technologies and cloud hosting solutions.
+              </p>
+              <p class="about__content-details-para">
+                I've worked on projects involving <strong>authentication systems</strong>, <strong>project management tools</strong>, and <strong>real-time collaborative features</strong>. Feel free to <strong>contact</strong> me to discuss potential collaborations or projects!
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">Django</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">Figma</div>
+              <div class="skills__skill">MySQL</div>
+              <div class="skills__skill">OAuth</div>
+              <div class="skills__skill">API Development</div>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Here are some of the projects I've worked on as a Django full-stack developer, showcasing my skills in web development, computer vision, and real-time collaboration.
+          </span>
+        </h2>
 
-      <div class="footer-section">
-        <h3>Quick Links</h3>
-        <ul class="footer-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-        </ul>
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/pms.jpeg"
+                alt="PMS Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">PMS (Project Management System)</h3>
+              <p class="projects__row-content-desc">
+                A full-stack web application built with Django, featuring authentication, task management, real-time collaboration, and whiteboard integration using Excalidraw.
+              </p>
+              <a
+                href="./project-1.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/visiocr.jpeg"
+                alt="VisiOCR Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">VisiOCR</h3>
+              <p class="projects__row-content-desc">
+                A computer vision-based OCR (Optical Character Recognition) project designed to extract text from images and documents using advanced image processing techniques.
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/poll.jpeg"
+                alt="Polling System Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Polling System</h3>
+              <p class="projects__row-content-desc">
+                A web-based polling system developed to create, manage, and analyze polls, offering a user-friendly interface and secure data handling.
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="footer-section">
-        <h3>Contact Info</h3>
-        <p><i class='bx bxs-envelope'></i> sainivasyellapragada@gmail.com</p>
-        <p><i class='bx bxs-phone'></i> 9866459588</p>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Feel free to reach out to discuss projects, collaborations, or opportunities!
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="#" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
       </div>
-    </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="LinkedIn icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="GitHub icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="Twitter icon"
+                />
+              </a>   
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="Instagram icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Sai Nivas Yellapragada</h4>
+            <p class="main-footer__short-desc">
+              A Django full-stack developer passionate about building scalable web applications and solving real-world problems with technology.
+            </p>
+          </div>
+        </div>
+        <div class="main-footer__lower">
+          © Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="sainivasyellapragada.site"
+            >Sai Nivas Yellapragada</a
+          >
+        </div>
+      </div>
+    </footer>
 
-    <div class="footer-bottom">
-      <p>© 2024 Sai Nivas Yellapragada | All Rights Reserved</p>
-    </div>
-  </footer>
-
-  <!-- *************************** -->
-
-  <script src="main.js"></script>
-</body>
-
+    <script src="./index.js"></script>
+  </body>
 </html>
